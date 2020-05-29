@@ -73,7 +73,7 @@ below value):
       array(
         'default' =>
         array(
-          'backend' => 'C3_Store_CyberCacheStore',
+          'backend' => '\\CyberHULL\\CyberCache\\C3\\Store\\CyberCacheStore',
           'backend_options' =>
           array( // missing entries will get default values
             'address' => '127.0.0.1',  // connection address; might be an internet address, or an IP
